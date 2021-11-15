@@ -7,15 +7,19 @@ import FriendPhoto from "./FriendPhoto";
 const mainFeed = [
   {
     name: 'Bobby',
-    update: 'This is Bobby.'
+    update: 'Got a new job.'
   },
   {
     name: 'Dennis',
-    update: 'This is Dennis.'
+    update: 'Got a baby.'
   },
   {
     name: 'Karen',
-    update: 'This is Karen.'
+    update: 'Went on vacation.'
+  },
+  {
+    name: 'Karen II',
+    update: 'The sequel to Karen.'
   }
 ];
 
@@ -29,7 +33,7 @@ function Feed(){
           update={friendFeed.update}
           key={index}/>
       )}
-
+      
     </React.Fragment>
   );
 }

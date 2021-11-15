@@ -33,3 +33,22 @@ pic    name     info links
         |        |          |
         |        |          |
         pic       name     add button
+
+// Promising, not quite finished.
+{/* <div className="grid-container">
+  <div className="item1">
+    <Header />
+  </div>
+  <div className="item2">
+    <Profile />
+  </div>
+  <div className="item3">
+    <About />
+  </div>
+  <div className="item4">
+    <Feed />
+  </div>
+  <div className="item5">
+    <FriendSuggestion />
+  </div>
+</div>

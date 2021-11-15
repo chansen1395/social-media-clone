@@ -6,16 +6,13 @@ import '../App.css';
 function FriendFeed(props){
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="friend-img">
+      <p>
           <FriendPhoto />
-        </div>
-        <div className="friend-txt">
           <h3>{props.name}</h3>
           <p>{props.update}</p>
-        </div>
-      </div>
+      </p>
       <hr/>
+      <br />
     </React.Fragment>
   );
 }
