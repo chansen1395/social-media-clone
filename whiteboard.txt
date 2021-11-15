@@ -1,0 +1,35 @@
+
+- Header 
+    |------------
+    |           |
+ Searchbar   link/nav buttons
+
+
+
+- Feed
+    |-------------------
+    |                  |
+    |                  |
+    |                 friend updates
+  your status update             |------------------- 
+      |         |                |        |         |
+     pic     update txtbox       |        |         |
+                                pic       name     update
+
+
+- Profile link
+        |
+        |
+________|_________
+|       |        |
+pic    name     info links
+
+
+- Profile About Me
+
+- friend suggestions
+        |
+        |-------------------
+        |        |          |
+        |        |          |
+        pic       name     add button
