@@ -1,20 +1,83 @@
+
 .App {
   text-align: center;
 }
 
 body {
-  background-color: #282c34;
-  color: white;
-  padding: 40px;
+  /* background-color: #282c34;
+  color: white; */
+  padding: 80px;
   font-family: Arial;
   text-align: left;
 }
 
-.container {
+.grid-container {
   display: grid;
-  grid-template-columns: 10rem 10rem 10rem;
-  grid-gap: 1rem;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  grid-template: 3fr/6fr;  /* 3 rows by 6 columns */
+  /* grid-template-areas:
+  'header header header header header header'
+  'profile feed feed feed friend-suggester'
+  'about feed feed feed friend-suggester'; */
+
+  /* grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr); */
+
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* #page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+} */
+
+.item1 {
+  grid-area: header;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+.item2 {
+  grid-area: profile;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.item3 {
+  grid-area: about;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.item4 {
+  grid-area: feed;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item5 {
+  grid-area: friend-suggester;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -53,6 +116,7 @@ body {
 
 .friend-img {
   float: left;
+  border-radius: 50%;
 }
 
 .friend-txt {

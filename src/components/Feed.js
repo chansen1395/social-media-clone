@@ -29,6 +29,7 @@ function Feed(){
           update={friendFeed.update}
           key={index}/>
       )}
+
     </React.Fragment>
   );
 }

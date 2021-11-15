@@ -1,15 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import FriendPhoto from "./FriendPhoto";
+import '../App.css';
 
 function FriendFeed(props){
   return (
     <React.Fragment>
-      <div class="container">
-        <div class="friend-img">
+      <div className="container">
+        <div className="friend-img">
           <FriendPhoto />
         </div>
-        <div class="friend-txt">
+        <div className="friend-txt">
           <h3>{props.name}</h3>
           <p>{props.update}</p>
         </div>

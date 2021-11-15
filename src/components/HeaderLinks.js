@@ -14,14 +14,3 @@ HeaderLinks.propTypes = {
 };
 
 export default HeaderLinks;
-// return (
-//   <React.Fragment>
-//     <hr/>
-//     {mainFeed.map((friendFeed, index) =>
-//       <FriendFeed 
-//         name={friendFeed.name}
-//         update={friendFeed.update}
-//         key={index}/>
-//     )}
-//   </React.Fragment>
-// );
